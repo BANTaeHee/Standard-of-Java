@@ -16,6 +16,20 @@ public class VarEx3_1 {
 		long l = 10000000000L;
 		float f = 3.14f;
 		double d = 3.14;
+		
+		char ch = 'A';
+		int i = 'A';
+		
+		String str = "";	// 빈 문자열(empty string)
+		String str2 = "ABCD";
+		String str3 = "123";
+		String str4 = str2 + str3;
+		System.out.println(i);
+		System.out.println(str);
+		System.out.println(str2);
+		System.out.println(str3);
+		System.out.println(str4);
+		
 		System.out.println(oct);
 		System.out.println(hex);
 		System.out.println(f);
