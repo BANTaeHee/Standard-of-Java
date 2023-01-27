@@ -1,0 +1,40 @@
+* 하나의 소스파일에 여러 클래스 작성
+< 올바른 예시 >
+   
+  1)
+	Hello2.java 		// 소스파일명
+	public class Hello2 {}
+		 class Hello3 {} 
+	// 기본적으로 소스파일명과 클래스명이 일치를 해야하고 
+	// 클래스가 여러개인 경우, public class의 이름과 소스파일명이 같아야한다. 
+   2) 
+	 Hello2.java 		// 소스파일명
+	class Hello2 {}
+	class Hello3 {}
+	// public class가 하나도 없는 경우, 소스파일의 이름은 'Hello2.java','Hello3.java' 둘 다 가능하다.
+
+< 잘못된 예시 >
+   
+  1)
+	Hello2.java 		// 소스파일명
+	public class Hello2 {}
+	public class Hello3 {}
+	
+	// 하나의 소스파일에 둘 이상의 public class가 존재하면 안된다. 
+	// 각 클래스를 별도의 소스파일에 나눠 저장하던가 둘 중의 한 클래스에 public을 붙이지 않아야 한다.
+	
+  2)
+	Hello3.java 		// 소스파일명
+	public class Hello2 {}
+	      class Hello3 {}
+
+	// 소스파일의 이름이 public class의 이름과 일치하지 않는다.
+	// 소스파일의 이름을 'Hello2.java'로 변경해야 맞다.
+
+  3)
+	hello2.java 		// 소스파일명
+	public class Hello2 {}
+		class Hello3 {}
+
+	// 소스파일의 이름과 public class의 이름이 일치하지 않는다.
+	// 대소문자를 구분하므로 대소문자까지 일치해야한다.
