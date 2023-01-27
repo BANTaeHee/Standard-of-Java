@@ -21,7 +21,7 @@ public class VarEx3_1 {
 		int i = 'A';
 		
 		String str = "";	// 빈 문자열(empty string)
-		String str2 = "ABCD";
+		String str2 = "ABCD"; // 2개이상의 문자는 ''은 사용할 수 없다.
 		String str3 = "123";
 		String str4 = str2 + str3;
 		System.out.println(i);
