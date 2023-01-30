@@ -4,8 +4,8 @@ public class Ex2_11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		short sMin = -32768, sMax = 32767;
-		char cMin = 0, cMax = 65535;
+		short sMin = -32768, sMax = 32767;		// short - 부호있는 정수
+		char cMin = 0, cMax = 65535;			// char - 부호없는 정수 
 		
 		System.out.println("sMin = " + sMin);
 		System.out.println("sMin-1 = " + (short)(sMin-1));
