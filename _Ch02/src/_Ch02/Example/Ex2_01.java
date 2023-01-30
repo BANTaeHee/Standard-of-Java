@@ -1,6 +1,6 @@
 package _Ch02.Example;
 
-public class Ex2_1 {
+public class Ex2_01 {
 
 	public static void main(String[] args) {
 		// 행단위 복사 단축키 : Ctrl + Alt + down

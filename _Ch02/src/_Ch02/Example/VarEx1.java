@@ -15,7 +15,7 @@ public class VarEx1 {
 		System.out.println("x=" + x);
 		System.out.println("y=" + y);
 
-		
 	}
 
 }
+ 

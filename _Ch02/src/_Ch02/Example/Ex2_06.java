@@ -1,6 +1,6 @@
 package _Ch02.Example;
 
-public class Ex2_6 {
+public class Ex2_06 {
 
 	public static void main(String[] args) {
 		
