@@ -17,7 +17,7 @@ public class Ex5_1_tmp {
 		for(int i = 0; i < iArr.length; i++) { 
 			System.out.println(iArr[i]);
 		}
-		System.out.println(Arrays.toString(iArr));
+		System.out.println(Arrays.toString(iArr));	// 문자열로 바꿔준다.
 	}
 
 }
