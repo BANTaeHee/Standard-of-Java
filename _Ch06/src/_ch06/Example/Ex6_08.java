@@ -12,7 +12,7 @@ public class Ex6_08 {
 		System.out.println("d.x =" + d.x);
 		System.out.println("d2.x =" + d2.x);
 	}
-	
+	 
 	static Data3 copy(Data3 d) {		// 참조형 매개변수
 		Data3 tmp = new Data3();	// 새로운 객체 tmp를 생성
 		

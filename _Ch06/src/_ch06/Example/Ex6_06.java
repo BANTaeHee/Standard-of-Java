@@ -3,7 +3,7 @@ package _ch06.Example;
 class Data {int x;}
 
 public class Ex6_06 { 
-
+ 
 	public static void main(String[] args) {
 		Data d = new Data();
 		d.x = 10;

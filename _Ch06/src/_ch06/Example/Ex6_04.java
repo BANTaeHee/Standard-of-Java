@@ -16,7 +16,7 @@ public class Ex6_04 {
 		System.out.println("add(5L, 3L) = " + result1);
 		System.out.println("subtract(5L, 3L) = " + result2);
 		System.out.println("multiply(5L, 3L) = " + result3);
-		System.out.println("divide(5L, 3L) = " + result4);
+		System.out.println("divide(5L, 3L) = " + result4); 
 	}
 }
 // MyMath 클래스 작성(메서드 작성) -> 메서드는 클래스 영역에만 정의가 가능하다
